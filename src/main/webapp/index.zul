@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zk>
+    <window title="ZATS Sample Application" border="normal" width="400px">
+        <vlayout>
+            <hbox>
+                <label value="Name:" />
+                <textbox id="nameInput" value="John" />
+                <button id="greetBtn" label="Greet" />
+            </hbox>
+            <separator />
+            <label id="greeting" value="Hello, World!" style="font-weight: bold; color: blue;" />
+            
+            <separator height="20px" />
+            
+            <hbox>
+                <label value="Counter:" />
+                <label id="counter" value="5" />
+                <button id="incrementBtn" label="+" />
+                <button id="decrementBtn" label="-" />
+                <button id="resetBtn" label="Reset" />
+            </hbox>
+        </vlayout>
+    </window>
+</zk>
