@@ -30,7 +30,5 @@ Tests are located in `src/test`, and you can run them with:
 mvn test
 ```
 
-## Author
 
-- Your Name
 
